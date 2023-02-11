@@ -86,14 +86,12 @@
 
 // checkDriveAge2();
 
-function checkDriveAge(age) {
-  if (Number(age) === 18) {
-    return "Hi Congratulations you to enjoy to drive Powe On";
-  } else if (Number(age) > 18) {
-    return "Enjoy you ride Pwoer On";
-  } else if (Number(age) < 18) {
-    return "Sorry, you are to young to drive this car. Power Off";
-  }
-}
-
-// checkDriveAge();
+// function checkDriveAge(age) {
+//   if (Number(age) === 18) {
+//     return "Hi Congratulations you to enjoy to drive Powe On";
+//   } else if (Number(age) > 18) {
+//     return "Enjoy you ride Pwoer On";
+//   } else if (Number(age) < 18) {
+//     return "Sorry, you are to young to drive this car. Power Off";
+//   }
+// }
