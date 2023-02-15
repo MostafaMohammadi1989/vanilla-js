@@ -111,6 +111,14 @@ var dataBase = [
     username: "Meisam",
     password: "123",
   },
+  {
+    username: "Majid",
+    password: "456",
+  },
+  {
+    username: "Adel",
+    password: "789",
+  },
 ];
 
 var newsFeed = [
@@ -127,6 +135,14 @@ var newsFeed = [
 var usernamePrompt = prompt("what's your username?");
 var passwordPrompt = prompt("what's your password?");
 
+function useValid(user, pass) {
+  for (let i = 0; i < dataBase.length; i++) {
+    if (dataBase[i].username === user && dataBase[i].pass) {
+      return true;
+    }
+  }
+  return false;
+}
 function signIn(user, pass) {
   if (user === dataBase[0].username && pass === dataBase[0].password) {
     console.log(newsFeed);
