@@ -11,3 +11,8 @@ function changeColor() {
 let h1get = document.getElementById("h1get");
 let h1Text = h1get.getAttribute("class");
 document.getElementById("getdemo").innerHTML = h1Text;
+
+let setClass = function () {
+  let h1set = document.getElementById("setclass");
+  h1set.setAttribute("class", "democlass");
+};
