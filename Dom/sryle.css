@@ -18,3 +18,12 @@
 .h1class {
   color: blue;
 }
+
+.h1ToggleClass {
+  color: blueviolet;
+  font-size: 30px;
+  background-color: rgb(117, 117, 117);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
