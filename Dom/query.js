@@ -16,3 +16,8 @@ let setClass = function () {
   let h1set = document.getElementById("setclass");
   h1set.setAttribute("class", "democlass");
 };
+
+let addClass = function () {
+  const h1AddClass = document.querySelectorAll(".test");
+  h1AddClass[0].setAttribute("class", "fontSize");
+};
