@@ -21,3 +21,5 @@ let toggleBtn = function () {
     .querySelector(".h1toggle")
     .classList.toggle("h1ToggleClass");
 };
+
+let liParent = document.querySelectorAll("li")[1].parentElement.parentElement;
